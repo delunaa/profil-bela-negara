@@ -13,8 +13,11 @@ export default function Hero() {
               <span className="text-red">Disiplin, Tangguh</span>, dan Siap Memimpin.
             </h1>
             <p className="text-lg sm:text-xl text-slate max-w-lg mx-auto md:mx-0">
-              Ekstrakurikuler Bela Negara menanamkan jiwa kepemimpinan, cinta tanah air,
-              dan kedisiplinan melalui pelatihan nyata.
+              <span className="font-semibold">Pendidikan Bela Negara (PBN) Satuan Garuda Merah Putih</span>{' '}
+              adalah program pembinaan generasi muda yang menanamkan nilai disiplin, kepemimpinan, 
+              dan cinta tanah air. Berlokasi di SMKN 2 Kudus, program ini menjadi wadah bagi siswa 
+              untuk membangun karakter, memperkuat semangat kebangsaan, serta membentuk pribadi yang 
+              tangguh dan bertanggung jawab.
             </p>
             <Link
               href="/kontak"

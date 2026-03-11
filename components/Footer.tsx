@@ -42,7 +42,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 <a
-                  href="https://www.instagram.com/piannacota"
+                  href="https://www.instagram.com/gmpskadaku_/"
                   target="_blank"
                   rel="noopener"
                   className="hover:text-white transition"
@@ -84,7 +84,18 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm text-gray-300">
-          &copy; {new Date().getFullYear()} Bela Negara. All rights reserved.
+          <p>&copy; {new Date().getFullYear()} Bela Negara. All rights reserved.</p>
+          <p className="mt-2">
+            Developed by{' '}
+            <a
+              href="https://www.instagram.com/piannacota/"
+              target="_blank"
+              rel="noopener"
+              className="text-red hover:underline"
+            >
+              @piannacota
+            </a>
+          </p>
         </div>
       </div>
     </footer>
